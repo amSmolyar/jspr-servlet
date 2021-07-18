@@ -15,6 +15,7 @@ public class PostRepository {
 
   public List<Post> all() {
     List<Post> list = new ArrayList<>(postMap.values());
+    //list.add(new Post(123, "hello!"));
     return list;
   }
 
